@@ -1,6 +1,13 @@
 @import './heading.css';
 @import './article-summary.css';
+@import './article-read.css';
 
 .mainArticle__articleHeader {
 	grid-area: teaser;
+
+}
+
+.mainArticle__heading{
+	margin-top: 0;
+	
 }

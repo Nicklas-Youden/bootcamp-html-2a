@@ -1,0 +1,13 @@
+@import './article-socialmeida.css';
+@import './article-subscribe.css';
+
+.mainArticle__article{
+    grid-area: content;
+    /* position: absolute; */
+    position: relative;
+    
+    
+
+
+
+}

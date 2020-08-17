@@ -1,0 +1,29 @@
+.mainArticle__articlecolophon{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-area: colophon;
+    border-bottom: 1px #030303 dotted;
+}
+
+.mainArticle__newssectionSection{
+  grid-area: newssection;
+  border-bottom: 1px #030303 dotted;
+  margin-right: 1em;
+
+}
+.mainArticle__newsSection{
+color: rgb(214, 26, 9);
+font-family: franklin-gothic-urw,Helvetica,Arial,sans-serif;
+}
+
+.mainArticle__dato{
+grid-column-start: 1;
+grid-column-end: 2;
+font-family: franklin-gothic-urw,Helvetica,Arial,sans-serif;
+}
+.mainArticle__comments{
+  grid-column-start: 3;
+  grid-column-end: 4; 
+  text-align: right; 
+  font-family: franklin-gothic-urw,Helvetica,Arial,sans-serif;
+}

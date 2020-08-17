@@ -1,0 +1,46 @@
+.mianArticle__articleSocialMedia{
+    display: grid;
+    float: right;
+    display: flex;
+    gap: 0.2em;
+    margin: 1em 0 2em;
+}
+
+
+.mianArticle__articleSocialMediaFacebook, .mainArticle__articleSocialMediaTweeter, .mainArticle__articleSocialMediaEmail{
+    padding: 0.5em;
+    width: 6em;
+    /* height: 2em; */
+    border-radius: 7%;
+}
+.mianArticle__articleSocialMediaFacebookIcon, .mainArticle__articleSocialMediaTweeterIcon, .mainArticle__articleSocialMediaEmailIcon{
+    width: 1.0em;
+    fill: #eeeeeeea;
+    
+}
+
+.mainArticle__articleSocialMediaFacebookText, .mainArticle__articleSocialMediaTweeterText, .mainArticle__articleSocialMediaEmailText{
+  
+    margin: 0;
+}
+.mianArticle__articleSocialMediaFacebookLink, .mainArticle__articleSocialMediaTweeterLink, .mainArticle__articleSocialMediaEmailLink{
+    color: #f9f9f9;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+ 
+
+
+}
+.mianArticle__articleSocialMediaFacebook{
+    background-color: #3D59D4;
+}
+
+.mainArticle__articleSocialMediaTweeter{
+
+    background-color: #5bbcfc;
+}
+
+.mainArticle__articleSocialMediaEmail{
+    background-color: #6e6e6e;
+}

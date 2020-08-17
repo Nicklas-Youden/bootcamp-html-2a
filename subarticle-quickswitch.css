@@ -1,0 +1,15 @@
+.subArticle_quickSwitch{
+    grid-area: article;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+}
+.subArticle_quickSwitchPicture{
+    width: 100%;
+    height: auto;
+}
+
+.subArticle_quickSwitchArticleText{
+    font-weight: bold;
+    
+}

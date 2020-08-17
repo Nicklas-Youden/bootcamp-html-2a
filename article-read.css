@@ -1,0 +1,13 @@
+.mainArticle__articleHeaderSubscribeRead{
+    display: flex;
+    grid-area: read;
+    gap: 0.5em;
+}
+
+.mainArticle__articleHeaderSubscribe{
+    color: rgb(209, 0, 0);
+}
+
+.mainArticle__articleHeaderReadTime{
+    color: #b8b8b8;
+}

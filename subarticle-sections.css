@@ -1,0 +1,6 @@
+.subArticle_quickSection{
+    color: #c80000;
+    border-bottom: dotted black 1px;
+    grid-area: read;
+    margin-bottom: 2em;
+}

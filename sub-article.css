@@ -1,0 +1,15 @@
+@import './subarticle-sections.css';
+@import './subarticle-quickswitch.css';
+
+.subArticle{
+    display: grid;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	grid-template-rows: repeat(6, auto);
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-areas: "read read read read"
+						 "article article article article"
+						 "latestnews . . name"
+						 "news frontpage . ."
+                         "news frontarticle frontarticle frontarticle"
+                         "news frontarticle frontarticle frontarticle";
+}

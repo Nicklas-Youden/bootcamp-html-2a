@@ -9,7 +9,7 @@
 	grid-column-start: 1;
 	grid-column-end: 2;
 	font-size: 0.7em;
-	color: hsl(0, 0%, 20%);
+	color: #333333;
 	padding-right: 1em;
 	text-align: right;
 }
@@ -17,8 +17,10 @@
 .coverPhoto__image {
 	grid-column-start: 2;
 	grid-column-end: 5;
+	width: 100%;
+	height: auto;
 }
 
 .caption__photographer {
-	color: hsl(0, 0%, 16%);
+	color: #292929;
 }

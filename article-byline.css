@@ -1,0 +1,52 @@
+.mainArticle__byline {
+
+    grid-area: byline;
+    margin-top: 1em;
+}
+
+.mainArticle__author {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "picture name name"
+        "picture email twitter";
+
+}
+
+.mainArticle__authorPicture {
+    grid-area: picture;
+    border-radius: 100%;
+}
+
+.mainArticle__bylineMailIcon,
+.mainArticle__bylineTwitterIcon {
+    border-radius: 100%;
+}
+
+.mainArticle__authorName {
+    grid-area: name;
+    margin: 0 0 0.45em 0;
+}
+
+.mainArticle__bylineMail {
+    grid-area: email;
+    margin: 0;
+}
+
+.mainArticle__bylineTwitter {
+    grid-area: twitter;
+    margin: 0;
+}
+
+.mainArticle__leadermail {
+    margin: 0;
+}
+
+.mainArticle__leadername {
+    margin-bottom: 0.5em;
+}
+
+.mainArticle_leader{
+
+    margin-top: 1.7em;
+}
